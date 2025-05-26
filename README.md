@@ -1,38 +1,43 @@
-🧠 Breast Cancer Prediction
-This project predicts whether a breast tumor is benign (non-cancerous) or malignant (cancerous) using machine learning.
+# 🧠 Breast Cancer Prediction
 
-📁 About the Project
-Uses the Breast Cancer Wisconsin dataset.
+This project predicts whether a breast tumor is **benign** (non-cancerous) or **malignant** (cancerous) using machine learning.
 
-Applies three machine learning models:
+## 📁 About the Project
 
-1. Logistic Regression
+- Uses the **Breast Cancer Wisconsin** dataset.
+- Applies three machine learning models:
+  - Logistic Regression
+  - Decision Tree
+  - Random Forest
+- Compares their accuracy and predictions.
 
-2. Decision Tree
+## 📊 What the Project Does
 
-3. Random Forest
-
-Compares their accuracy and predictions.
-
-📊 What the Project Does
 1. Loads and cleans the data.
-
 2. Visualizes patterns and correlations.
-
 3. Converts labels to numbers (benign = 0, malignant = 1).
-
 4. Trains models and checks how well they perform.
+5. Compares predictions with actual results.
 
-Compares predictions with actual results.
+## 🛠 Tools Used
 
-🛠 Tools Used
-Python
-Pandas
-NumPy
-Matplotlib & Seaborn
-Scikit-learn
+- Python
+- Pandas
+- NumPy
+- Matplotlib & Seaborn
+- Scikit-learn
 
-🚀 How to Use
-Download the dataset (data.csv) from Kaggle.
+  👩‍💻 Author
+Mokshada Patil – Aspiring Data Analyst | Final Year Engineering Student (Data Science)
+🔍 Passionate about solving real-world problems using data
+🧠 Skilled in Python, Pandas, Power BI, SQL, and Visualization
+💡 Interested in Data Analytics roles in Healthcare, Education, and Social Impact
+📫 Connect with me on LinkedIn or mail at: mokshadapatil207@gmail.com
 
-Run the Python file in Google Colab, Jupyter Notebook, or any Python IDE.
+## 🚀 How to Use
+
+1. Download the dataset (`data.csv`) from [Kaggle](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data).
+2. Place it in the same folder as the script.
+3. Install required libraries:
+   ```bash
+   pip install numpy pandas matplotlib seaborn scikit-learn
